@@ -1,0 +1,78 @@
+.header{
+    color: rgb(87, 30, 39);
+    background-color: rgb(242, 188, 188);
+    font-family: cursive;
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid;
+    margin: 6px auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.header:hover{
+    color: brown;
+    border: 5px solid pink;
+    cursor: pointer;
+    transition: 1000ms;
+}
+.open h2{
+    color: rgb(72, 72, 152);
+}
+.open img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    transition: 2s;
+}
+
+.open{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(32, 108, 183);
+    font-style: bolder;
+}
+
+
+h2{
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 20px;
+    color: brown;
+}
+
+.skill{
+    margin-left: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.skill ul li{
+    list-style: circle;
+}
+.lang{
+    margin-left: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.lang ul li{
+    list-style: circle;
+}
+.contact{
+    margin-left: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.contact ul li{
+    list-style: circle;
+}
+
+.contact ul li a:hover{
+    color: rgb(203, 142, 191);
+}
+
+
+
+
